@@ -9,5 +9,5 @@ alert("Sending text.");
 document.search.action="Send_yes";
 }
 var sendButton = document;
-// var sendButton = document.search.action;
-sendButton.addEventListener("click", sendForm);
+var sendButton = document.search.action;
+// sendButton.addEventListener("click", sendForm);
