@@ -8,6 +8,6 @@ else
 alert("Sending text.");
 document.search.action="Send_yes";
 }
-var sendButton = document;
+// var sendButton = document;
 var sendButton = document.search.action;
-// sendButton.addEventListener("click", sendForm);
+sendButton.addEventListener("click", sendForm);
